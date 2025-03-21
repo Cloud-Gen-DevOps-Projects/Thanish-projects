@@ -17,6 +17,7 @@ echo "Applying new group permissions..."
 newgrp docker
 
 # Step 5: Set permissions for Docker socket
+# this one use for to give the permission to execute the task in jenkins to job befoe build the docker image. we must have this to build and execute job successfully in jenkins.
 echo "Changing Docker socket permissions..."
 sudo chmod 777 /var/run/docker.sock
 
