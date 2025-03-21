@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# hello this is for Nexus Repo Setup 
 # Set Variables
 NEXUS_VERSION="3.77.2-02"
 NEXUS_USER="nexus"
